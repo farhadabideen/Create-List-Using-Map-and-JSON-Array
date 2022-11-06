@@ -1,0 +1,8 @@
+{
+  "name": "list",
+  "version": "1.0.0",
+  "description": "This is need for To load an ES module list",
+  "main": "main.js",
+  "author": "Farhad Abideen",  
+  "type": "module"
+}
