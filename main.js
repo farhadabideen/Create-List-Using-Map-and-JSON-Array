@@ -1,6 +1,6 @@
 import {countryListWithCode} from "./countries.js";
 
-countryListWithCode.map((item,i) => {
-    let country = `My Country Name and Code: ${item.name} (${item.code})`;
+countryListWithCode.map((item,index) => {
+    let country = `My Country Code and Name: (${item.code}) ${item.name} - ${index.valueOf()} `;
     console.log(country);
 });
